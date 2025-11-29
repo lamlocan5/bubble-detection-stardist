@@ -1,0 +1,39 @@
+# Core dependencies for StarDist model
+stardist>=0.9.0
+csbdeep>=0.8.0
+
+# NumPy - version constraint (StarDist requires numpy < 2)
+numpy<2.0.0
+
+# Image processing
+scikit-image>=0.25.0
+imageio>=2.37.0
+pillow>=8.3.2
+tifffile>=2025.0.0
+
+# Computer vision
+opencv-python-headless>=4.12.0
+
+# Scientific computing
+scipy>=1.16.0
+numba>=0.60.0
+
+# Machine learning utilities
+scikit-learn>=1.0.0
+pandas>=1.0.0
+
+# Visualization
+matplotlib>=3.10.0
+
+# Progress bars
+tqdm>=4.67.0
+
+# Optional: Cellpose model (used in model2_bubbles.ipynb)
+cellpose>=4.0.0
+torch>=1.6.0
+torchvision>=0.24.0
+
+# Utilities
+packaging>=25.0
+six>=1.17.0
+
