@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Model logs và temporary files
+**/logs/
+**/*.log
+*.tfevents.*
+*.events.*
+
+# TensorBoard
+runs/
+tensorboard/
+
+# Ignore tất cả ảnh trong folder result/output (bạn có thể manually add những ảnh muốn commit)
+result_model2_bubbles/**/*.png
+result_model2_bubbles/**/*.jpg
+result_model2_bubbles/**/*.jpeg
+result_model2_bubbles/**/*.tif
+result_model2_bubbles/**/*.tiff
+
+# Ignore ảnh trong các folder output khác
+output/**/*.png
+output/**/*.jpg
+output/**/*.jpeg
+output/**/*.tif
+output/**/*.tiff
+output_masks/**/*.png
+output_labeled/**/*.png
+
+# Cho phép CSV files (sẽ được commit)
+!**/*.csv
+
+# Cho phép model files (sẽ được commit)
+!**/*.h5
+!**/*.weights.h5
+!**/config.json
+
+# Cho phép notebooks (sẽ được commit)
+!**/*.ipynb
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Data files lớn (nếu có)
+*.zip
+*.tar.gz
+*.rar
+!*.csv
+
+# Environment variables
+.env
+.env.local
+
