@@ -271,16 +271,18 @@ labels, details = model.predict_instances(
 btl/
 ├── README.md
 ├── requirements.txt
-├── model1_DSB2018.ipynb          # Notebook train model 1
-├── model2_bubbles.ipynb           # Notebook train model 2
-├── model1_DSB20018/              # Model 1 weights
+├── model1_bubbles.ipynb           # Notebook train model 1 (bubbles dataset)
+├── model2_DSB2018.ipynb           # Notebook train model 2 (DSB2018 dataset)
+├── model1_bubbles/                # Model 1 weights
+│   ├── config.json
+│   ├── weights_best.weights.h5
+│   └── weights_last.h5
+├── model2_DSB20018/               # Model 2 weights
 │   └── stardist_model/
 │       ├── config.json
 │       ├── weights_best.h5
 │       └── weights_last.h5
-├── model2_bubbles/                # Model 2 weights
-│   └── ...
-└── result_model2_bubbles/         # Kết quả inference
+└── result_model1_bubbles/         # Kết quả inference
 ```
 
 ---
